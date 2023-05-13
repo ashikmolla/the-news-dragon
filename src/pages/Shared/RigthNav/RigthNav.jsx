@@ -21,7 +21,7 @@ const RigthNav = () => {
             </div>
             <QZon/>
             <div className='text-center bgpng'>
-                <img src={bgPng} alt="" />
+                <img className='rounded' src={bgPng} alt="" />
                 <div className='bgpngDetils'>
                     <h3>Create an Amazing Newspaper</h3>
                     <p>Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
