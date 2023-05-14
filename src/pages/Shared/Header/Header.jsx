@@ -37,7 +37,7 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="m-auto">
                             <Nav.Link to="#features">
-                                <Link to="/">Home</Link>
+                                <Link to="/" className='text-decoration-none'>Home</Link>
                             </Nav.Link>
                             <Nav.Link href="#pricing">About</Nav.Link>
                             <Nav.Link href="#pricing">Career</Nav.Link>
@@ -46,6 +46,7 @@ const Header = () => {
                         <Nav>
                             {
                                user && <Nav.Link href="#deets">
+                                <spen>{user.name}</spen>
                                 <FaUserCircle style={{ fontSize: '2rem' }}></FaUserCircle>
                             </Nav.Link>
                             }
